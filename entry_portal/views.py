@@ -125,7 +125,7 @@ def toggle_review(request, pk) -> HttpResponse:
         })
     return HttpResponse(status=204)
 
-def paginate_queryset(request, queryset, per_page=10):
+def paginate_queryset(request, queryset, per_page=10) -> Paginator:
     
     ''' Paginate the queryset and return the page object '''
     
