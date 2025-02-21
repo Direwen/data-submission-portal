@@ -52,6 +52,7 @@ pip install -r requirements.txt
 ### Run Migrations
 
 Apply the database migrations to set up the necessary tables.
+
 ```sh
 python manage.py makemigrations
 ```
@@ -76,3 +77,18 @@ Start the Django development server to run the application locally.
 python manage.py runserver
 ```
 
+**Note:** The application can be accessed at `http://localhost:8000/portal/`.
+
+## Time Log
+
+### February 20, 2025
+- **6:00 PM** – Spent an hour learning about HTMX.
+- **7:00 PM** – Discussed with AI about different ways to build the frontend.
+- **9:00 PM** – Set up the Django project.
+- **9:30 PM** – Created views and URLs.
+- **10:30 PM** – Created traditional templates without HTMX.
+
+### February 21, 2025
+- **3:00 AM** – Finished integrating HTMX and Tailwind CSS designs.
+- **9:45 AM** – Started refactoring.
+- **11:00 AM** – Completed refactoring.
